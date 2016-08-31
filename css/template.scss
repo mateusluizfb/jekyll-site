@@ -1,0 +1,12 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@import "bourbon/bourbon";
+// @import "base/base";
+@import "neat/neat";
+
+.teste {
+  @include span-columns(6);
+  @include shift(3);
+  height: 100px;
+}
