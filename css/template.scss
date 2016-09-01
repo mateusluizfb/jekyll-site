@@ -1,12 +1,50 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
 ---
+
 @import "bourbon/bourbon";
-// @import "base/base";
+@import "base/base";
 @import "neat/neat";
 
-.teste {
-  @include span-columns(6);
-  @include shift(3);
-  height: 100px;
+* {
+  margin: 0px;
+}
+
+footer {
+  height: 30px;
+  background: rgb(201, 204, 209);
+  position: relative;
+  box-shadow: 0px 0px 1px 0px;
+}
+
+body {
+  background-color: #b0b1b1;
+}
+
+li a {
+  padding: 10px;
+  color: #D0D3D4;
+  float: left;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition:  background-color 0.5s ease;
+  -webkit-transition:  background-color 0.5s ease;
+  background-color: inherit;
+}
+
+
+li a:hover {
+  background-color: #D6DBDF;
+}
+
+.navbar-header {
+  width: 100%;
+  background: #283747;
+  overflow: hidden;
+  font-weight: bold;
+  box-shadow: 0px 0px 1px 0px;
+}
+
+.contact {
+  color: #283747;
+  float: right;
+  background-color: #5D6D7E;
 }

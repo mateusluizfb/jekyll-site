@@ -1,0 +1,25 @@
+---
+---
+
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
+.container {
+  @include outer-container(55%);
+}
+
+.main-box {
+  box-shadow: 0px 0px 1px 0px;
+  height: 400px;
+  background: #e2e2e2;
+}
+
+.post-box {
+  @include outer-container(70%);
+  padding: 10px;
+  border: 0px 0px 0px 0px;
+  border-color: black;
+  border-bottom-style: solid;
+  border-width: thin;
+}

@@ -22,7 +22,8 @@ gem "minima"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
-
-gem "bourbon"
-gem "neat"
-gem 'bitters'
+group :jekyll_plugins do
+  gem "bourbon"
+  gem "neat"
+  gem "bitters"
+end

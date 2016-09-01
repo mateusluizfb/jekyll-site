@@ -4,19 +4,25 @@
     <meta charset="utf-8">
     <title>Default</title>
     <link rel="stylesheet" href="../css/template.css" charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css" charset="utf-8">
+    <link rel="stylesheet" href="../css/main-page.css" charset="utf-8">
   </head>
 
-  <div class="container">
-    <h3 class="teste">HEADER</h3>
-  </div>
-  <body class="container">
+  <header>
+    <ul class="navbar-header">
+      <li><a href="#">Mateus</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li class="contact"><a href="#">Contato</a></li>
+    </ul>
+  </header>
 
-      <div class="row">
-        {{ content }}
-      </div>
-
-    </body>
-    <div class="container">
-      <h3 class="teste">FOOTER</h3>
+  <body>
+    <div>
+      {{ content }}
     </div>
+
+  </body>
+  <footer>
+
+  </footer>
 </html>
