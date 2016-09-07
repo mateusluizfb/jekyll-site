@@ -12,15 +12,22 @@
 .main-box {
   box-shadow: 0px 0px 1px 0px;
   margin: 5px;
-  height: 500px;
   background: #e2e2e2;
 }
 
 .post-box {
   @include outer-container(70%);
-  padding: 10px;
-  border: 0px 0px 0px 0px;
-  border-color: black;
-  border-bottom-style: solid;
-  border-width: thin;
+  padding: 15px;
+}
+
+.info-text {
+  @include span-columns(6);
+  font-size: 23px;
+}
+
+.profile-img {
+  @include span-columns(6);
+  width: 220px;
+  margin-left: 13%;
+  border-radius: 10px;
 }

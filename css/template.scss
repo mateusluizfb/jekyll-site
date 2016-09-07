@@ -38,7 +38,7 @@ body {
   color: #283747;
   float: right;
   background-color: #5D6D7E;
-  width: 100px;
+  width: 8%;
   text-align: center;
 }
 
@@ -49,15 +49,31 @@ body {
   }
 }
 
+.info-icon {
+  color: #6dc29b;
+}
+.project-icon {
+  color: #aa5246;
+}
+.contact-icon {
+  color: #b0ac77;
+}
+
 .left {
-  color: #283747;
+  color: #edeef0;
   float: left;
   background-color: #5D6D7E;
   padding: 10px;
+  width: 12%;
+  text-align: center;
   p {
     font-size: 20px;
     margin: 0;
   }
+}
+
+.left:hover {
+  color: #56b4ab;
 }
 
 .font-montserrat {
