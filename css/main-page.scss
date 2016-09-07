@@ -5,9 +5,6 @@
 @import "base/base";
 @import "neat/neat";
 
-.container {
-  @include outer-container(55%);
-}
 
 .main-box {
   box-shadow: 0px 0px 1px 0px;
@@ -20,14 +17,36 @@
   padding: 15px;
 }
 
-.info-text {
-  @include span-columns(6);
-  font-size: 23px;
+@media screen and (min-width: 760px) {
+
+  .container {
+    @include outer-container(55%);
+  }
+
+  .info-text {
+    @include span-columns(6);
+    font-size: 1.4vw;
+  }
+
+  .profile-img {
+    @include span-columns(6);
+    padding-left: 68px;
+    padding-top: inherit;
+  }
+
 }
 
-.profile-img {
-  @include span-columns(6);
-  width: 220px;
-  margin-left: 13%;
-  border-radius: 10px;
+@media screen and (max-width: 760px) {
+
+  .container {
+    @include outer-container(70%);
+  }
+
+  .profile-img {
+    @include span-columns(6);
+    padding-left: 80px;
+    padding-top: inherit;
+    width: 70%;
+  }
+
 }
