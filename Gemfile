@@ -26,4 +26,5 @@ group :jekyll_plugins do
   gem "bourbon"
   gem "neat"
   gem "bitters"
+  gem "font-awesome-sass"
 end

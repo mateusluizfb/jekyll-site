@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Teste"
-date:   2016-08-30 21:14:30 +0000
-categories: jekyll update
-expert: "Sobre teste"
----
-
-Teste
