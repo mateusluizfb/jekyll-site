@@ -17,7 +17,7 @@
   padding: 15px;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-device-width: 760px) {
 
   .container {
     @include outer-container(55%);
@@ -36,15 +36,19 @@
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-device-width: 760px) {
 
   .container {
     @include outer-container(70%);
   }
 
+  .info-text {
+    text-align: center;
+  }
+
   .profile-img {
     @include span-columns(6);
-    padding-left: 80px;
+    padding-left: 150px;
     padding-top: inherit;
     width: 70%;
   }
